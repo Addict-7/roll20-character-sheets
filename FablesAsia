@@ -1,0 +1,80 @@
+<div class="content">
+    <div>
+            <h3 class="titre">Fables : Asie </h3>
+        </div>
+    <div class="section-identite">
+        <div>
+            <tr>
+            <td>
+                <h1>Identite : </h1><br>
+            </td>
+            </tr>
+            <tr>
+                <h2>Nom :</h2> <input class="case_nom" type="text" name="attr_nom"></input><br>
+                <h2>Espece : </h2><input class="case_maison" type="text" name="attr_maison"></input><br>
+                <h2>Glamour : </h2> <input class="case_religion" type="number" name="attr_religion" title="glamour" value="1" min="0" max="100"></input><br>
+                <h2>Points de vie : </h2><input class="case_fatigue" type="number" name="attr_fatigue" title="fatigue" value="1" min="0" max="50"></input><br>
+                <h2>Espoir : </h2><input class="case_karma" type="number" name="attr_karma" title="karma" value="1" min="0"></input><br>
+            <br>
+        </div>
+    </div>
+        <div class="section-attributs">
+                <table>
+                <tr>
+                    <td>
+                       <h1>Attributs : </h1><br>
+                     </td>
+                    </tr>
+                <tr>
+                    <td>
+                       <h2 class="attr_marg">Force : </h2>
+                    </td>
+                    <td>
+                        <input type="number" name="attr_cerneau" title="cerneau" value="1" min="0" max="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2 class="attr_marg">Agilite : </h2>
+                    </td>
+                    <td>
+                        <input type="number" name="attr_quenottes" title="quenottes" value="1" min="0" max="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2 class="attr_marg">Intelligence : </h2>
+                    </td>
+                    <td>
+                        <input type="number" name="attr_papattes" title="papattes" value="1" min="0" max="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <h2 class="attr_marg">Charisme : </h2>
+                    </td>
+                    <td>
+                        <input type="number" name="attr_panache" title="panache" value="1" min="0" max="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <h2 class="attr_marg">Perception : </h2>
+                    </td>
+                    <td>
+                        
+                        <input type="number" name="attr_touffu" title="touffu" value="1" min="0" max="100"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+                <br><h1 class="case_noixdjectifs">Pouvoirs : </h1><br><textarea class="case_noixdjectifs" type="text" name="attr_noixdjectifs"></textarea><br>
+        </div>
+        <div>
+                <h1 class="case_noixdjectifs">Affaires : </h1><br><textarea class="case_equipement" type="text" name="attr_equipement"></textarea><br>
+        </div>
+        <div>
+                <h1 class="case_noixdjectifs">Histoire : </h1><br><textarea class="case_equipement2" type="text" name="attr_equipement"></textarea><br>
+        </div>
+</div>
